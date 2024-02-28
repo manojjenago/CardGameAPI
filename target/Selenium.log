@@ -1,0 +1,10 @@
+2024-02-28 09:27:30 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2024-02-28 09:27:33 [INFO ] [InitializeWebDrive] - [beforeChrome] Chrome
+2024-02-28 09:27:33 [INFO ] [GenericHelper] - [takeScreenShot] C:\CucumberSelenium\CardGameAPI\target\test-classes\screenshots\_2024-02-28\Verify Card Game using API.jpg
+2024-02-28 09:27:34 [ERROR] [InitializeWebDrive] - [tearDownDriver] org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ManojLaptop', ip: '192.168.0.111', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61592}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, fedcm:accounts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=122.0.6261.69 (81bc525b6a36d91ed7fe98a4b53c6f53c79adbb2-refs/branch-heads/6261_57@{#3}), userDataDir=C:\Users\MANOJK~1\AppData\Local\Temp\scoped_dir18420_1511280646}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=122.0.6261.70, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 62f70558b1471ff205fca97ae33b9856
+2024-02-28 09:27:35 [INFO ] [CucumberReport] - [onFinish] Report Generated : target\test-classes\reports\cucumberreports

@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.589 sec <<< FAILURE! - in TestSuite
+feature(com.cucumber.framework.runner.CheckersGameRunner)  Time elapsed: 3.9 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.ExceptionInInitializerError
+Caused by: java.lang.ExceptionInInitializerError
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @e73f9ac
+
